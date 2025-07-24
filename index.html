@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School Webpage</title>
+
+  <!-- Fonts & Tailwind -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+  <header class="header bg-white shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <div class="logo flex items-center">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_kTKNMk65cgK-T65di9pLJKamrqn1smfA4_nQggBpBzfmQ=s900-c-k-c0x00ffffff-no-rj"
+             alt="Profile Picture" class="mr-3 h-12 rounded-full">
+        <h1 class="text-xl font-semibold text-blue-700">ST. MARK'S HIGH SCHOOL</h1>
+      </div>
+      <nav class="hidden md:block">
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-blue-600 text-gray-700 font-medium">About Us</a></li>
+          <li><a href="#academics" class="hover:text-blue-600 text-gray-700 font-medium">Academics</a></li>
+          <li><a href="#admissions" class="hover:text-blue-600 text-gray-700 font-medium">Admissions</a></li>
+          <li><a href="#contact" class="hover:text-blue-600 text-gray-700 font-medium">Contact</a></li>
+          <li><a href="#gallery" class="hover:text-blue-600 text-gray-700 font-medium">Gallery</a></li>
+        </ul>
+      </nav>
+      <button id="hamburger-btn" class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle Navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="scrolling-text-container">
+      <span class="scrolling-text">
+        Open School Registration for Students »»  Hurry, Limited Seats Available! »»
+      </span>
+    </div>
+
+    <section id="hero" class="bg-blue-100 py-20 px-4 text-center">
+      <div class="container mx-auto">
+        <h1 class="text-5xl font-semibold text-blue-800 mb-2">ST. MARK'S HIGH SCHOOL</h1>
+        <h2 class="text-2xl font-semibold text-blue-800 mb-4 text-center">THE ONLY SCHOOL WITH A MISSION</h2>
+        <h3 class="text-xl font-semibold text-blue-800 mb-4 text-center">Recognised by Govt of T.S</h3>
+        <h4 class="text-xl font-semibold text-blue-800 mb-4 text-center">Nursery, LKG to 10th for Boys & Girls</h4>
+        <p class="text-lg text-gray-700 mb-8">
+          Prashanth nagar, Adarsh nagar, Uppal, Hyderabad, 500039
+        </p>
+        <a href="applicationformofsmhs.html"
+           class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out">
+          Admissions Open
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 px-4">
+      <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-2xl font-semibold text-blue-800 mb-4">About Us</h2>
+          <p class="text-gray-700 text-lg">
+            St. Mark's High School is a leading educational institution dedicated to providing quality education and holistic development.
+            We strive to create a nurturing environment where students can excel academically, socially, and emotionally. Our experienced
+            faculty and state-of-the-art facilities ensure that every child receives the attention and support they need to reach their full potential.
+          </p>
+          <p class="text-gray-700 text-lg mt-4">
+            We believe in fostering a love of learning and preparing our students to be responsible and contributing members of society.
+          </p>
+        </div>
+        <div>
+          <img src="https://content.jdmagicbox.com/v2/comp/hyderabad/67/040pf005567/catalogue/st-marks-high-school-uppal-hyderabad-convent-schools-q640jp5w9d.jpg"
+               alt="About Us" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </section>
+
+    <section id="academics" class="bg-gray-100 py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">Academics</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Curriculum</h3>
+            <p class="text-gray-700">Our curriculum is designed to be challenging and engaging, fostering critical thinking and problem-solving skills.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Faculty</h3>
+            <p class="text-gray-700">Our dedicated and experienced faculty are committed to providing a supportive and enriching learning experience.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Learning Environment</h3>
+            <p class="text-gray-700">We provide a safe, inclusive, and stimulating environment that encourages collaboration and creativity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions" class="py-20 px-4">
+      <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8">Admissions</h2>
+        <p class="text-lg text-gray-700 mb-6">
+          We welcome students of all backgrounds who are eager to learn and grow. Our admissions process is designed to ensure that each student is a good fit for our school community.
+        </p>
+        <a href="applicationformofsmhs.html"
+           class="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out">
+          Apply Now
+        </a>
+      </div>
+    </section>
+
+    <section id="open-school" class="py-20 px-4 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">Open School</h2>
+        <div class="grid md:grid-cols-2 gap-8 items-start">
+          <div class="open-school-list bg-white rounded-lg shadow-md p-6">
+            <ul class="list-disc list-inside space-y-2">
+              <li><a href="aboutopn school.html" class="text-blue-600 hover:text-blue-800">About Open School</a></li>
+              <li><a href="admissiontoopenschool.html" class="text-blue-600 hover:text-blue-800">Admissions Process</a></li>
+              <li><a href="coursesatopenschool.html" class="text-blue-600 hover:text-blue-800">Courses Offered</a></li>
+              <li><a href="studentsupport.html" class="text-blue-600 hover:text-blue-800">Student Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="bg-gray-100 py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <img src="https://content3.jdmagicbox.com/v2/comp/hyderabad/67/040pf005567/catalogue/st-marks-high-school-uppal-hyderabad-convent-schools-hdrimjvgbi.jpg"
+               alt="Gallery 1" class="rounded-lg shadow-md hover:scale-105 transition-transform max-h-64 object-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_v4Of9D5_eZd012BWnasLCi8doRErRP7YA&s"
+               alt="Gallery 2" class="rounded-lg shadow-md hover:scale-105 transition-transform max-h-64 object-cover">
+          <img src="https://content3.jdmagicbox.com/v2/comp/hyderabad/67/040pf005567/catalogue/st-marks-high-school-uppal-hyderabad-convent-schools-pxzowduh0g.jpg"
+               alt="Gallery 3" class="rounded-lg shadow-md hover:scale-105 transition-transform max-h-64 object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section id="fee-structure" class="bg-gray-100 py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">Fee Structure</h2>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <p class="text-gray-700 text-lg">
+            Details about the fee structure will be available here. Please contact the school office for the most up-to-date information.
+          </p>
+          <ul class="list-disc list-inside mt-4 text-gray-700">
+            <li>Tuition Fees</li>
+            <li>Admission Fees</li>
+            <li>Other Charges</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">Contact Us</h2>
+        <div class="bg-white rounded-lg shadow-md p-8">
+          <p class="text-lg text-gray-700 text-center mb-4">
+            <strong>St. Mark's High School</strong><br>
+            Prashanth nagar, Adarsh nagar, Uppal, Hyderabad-39.<br>
+            Ph: 040-27201306, 040-29550401<br>
+            Email: st.marks.uppal@gmail.com
+          </p>
+          <div class="mt-6">
+            <form class="space-y-4">
+              <div>
+                <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                <input type="text" id="name"
+                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+              </div>
+              <div>
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                <input type="email" id="email"
+                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+              </div>
+              <div>
+                <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                <textarea id="message"
+                          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+              </div>
+              <button type="submit"
+                      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="school-map" class="py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-8 text-center">School Location</h2>
+        <div class="rounded-lg shadow-md overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.132762949771!2d78.5539723767222!3d17.446475100355786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f114b7b1e1%3A0x6b19159d498956c8!2sLittle%20Flower%20High%20School!5e0!3m2!1sen!2sus!4v1708199722305!5m2!1sen!2sus"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="text-gray-700 text-center mt-4">
+          Visit us at Prashanth nagar, Adarsh nagar, Uppal, Hyderabad, 500039.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>© 2024 St. Mark's High School. All rights reserved.</p>
+  </footer>
+
+  <!-- Your custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
